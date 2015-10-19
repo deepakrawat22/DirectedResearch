@@ -47,12 +47,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Anaglyph Pack\Script\AnaglyphizerC.cs" />
+     <Compile Include="Assets\Scripts\Hologram.cs" />
+     <Compile Include="Assets\Scripts\Hologram_1.cs" />
      <None Include="Assets\Earthborn Troll\Shader\Alpha_Texture.shader" />
      <None Include="Assets\Earthborn Troll\Shader\DoubleSided-Light-Spec.shader" />
      <None Include="Assets\Anaglyph Pack\LICENSE.txt" />
      <None Include="Assets\Anaglyph Pack\Shaders\Anaglyph_Balanced_Param.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Deepak/Documents/USC/DR/DR_Demo_1/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Deepak/Documents/USC/DirectedResearch/DR_Demo_1/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

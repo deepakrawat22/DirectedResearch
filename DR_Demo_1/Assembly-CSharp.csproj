@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Anaglyph Pack\Script\AnaglyphizerC.cs" />
+     <Compile Include="Assets\Scripts\Hologram.cs" />
+     <Compile Include="Assets\Scripts\Hologram_1.cs" />
      <None Include="Assets\Earthborn Troll\Shader\Alpha_Texture.shader" />
      <None Include="Assets\Earthborn Troll\Shader\DoubleSided-Light-Spec.shader" />
      <None Include="Assets\Anaglyph Pack\LICENSE.txt" />
