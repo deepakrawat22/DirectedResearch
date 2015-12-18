@@ -1,0 +1,411 @@
+fileFormatVersion: 2
+guid: 815721a3c799a468aa07ed9ea76bb320
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: monnok_Joint_Chest
+    100004: monnok_Joint_Head
+    100006: monnok_Joint_Head_End
+    100008: monnok_Joint_Hip
+    100010: monnok_Joint_L_Ankle
+    100012: monnok_Joint_L_Arm
+    100014: monnok_Joint_L_Elbow
+    100016: monnok_Joint_L_Forearm
+    100018: monnok_Joint_L_Index1
+    100020: monnok_Joint_L_Index2
+    100022: monnok_Joint_L_Index3
+    100024: monnok_Joint_L_Knee
+    100026: monnok_Joint_L_Leg
+    100028: monnok_Joint_L_Shoulder
+    100030: monnok_Joint_L_Thumb1
+    100032: monnok_Joint_L_Thumb2
+    100034: monnok_Joint_L_Toe
+    100036: monnok_Joint_L_Wrist
+    100038: monnok_Joint_Mid_Chest
+    100040: monnok_Joint_Neck
+    100042: monnok_Joint_R_Ankle
+    100044: monnok_Joint_R_Arm
+    100046: monnok_Joint_R_Elbow
+    100048: monnok_Joint_R_Forearm
+    100050: monnok_Joint_R_Index1
+    100052: monnok_Joint_R_Index2
+    100054: monnok_Joint_R_Index3
+    100056: monnok_Joint_R_Knee
+    100058: monnok_Joint_R_Leg
+    100060: monnok_Joint_R_Shoulder
+    100062: monnok_Joint_R_Thumb1
+    100064: monnok_Joint_R_Thumb2
+    100066: monnok_Joint_R_Toe
+    100068: monnok_Joint_R_Wrist
+    100070: monnok_Joint_Root
+    100072: monnok_Joint_Waist
+    100074: monnok_mesh
+    100076: monnok_Skeleton
+    400000: //RootNode
+    400002: monnok_Joint_Chest
+    400004: monnok_Joint_Head
+    400006: monnok_Joint_Head_End
+    400008: monnok_Joint_Hip
+    400010: monnok_Joint_L_Ankle
+    400012: monnok_Joint_L_Arm
+    400014: monnok_Joint_L_Elbow
+    400016: monnok_Joint_L_Forearm
+    400018: monnok_Joint_L_Index1
+    400020: monnok_Joint_L_Index2
+    400022: monnok_Joint_L_Index3
+    400024: monnok_Joint_L_Knee
+    400026: monnok_Joint_L_Leg
+    400028: monnok_Joint_L_Shoulder
+    400030: monnok_Joint_L_Thumb1
+    400032: monnok_Joint_L_Thumb2
+    400034: monnok_Joint_L_Toe
+    400036: monnok_Joint_L_Wrist
+    400038: monnok_Joint_Mid_Chest
+    400040: monnok_Joint_Neck
+    400042: monnok_Joint_R_Ankle
+    400044: monnok_Joint_R_Arm
+    400046: monnok_Joint_R_Elbow
+    400048: monnok_Joint_R_Forearm
+    400050: monnok_Joint_R_Index1
+    400052: monnok_Joint_R_Index2
+    400054: monnok_Joint_R_Index3
+    400056: monnok_Joint_R_Knee
+    400058: monnok_Joint_R_Leg
+    400060: monnok_Joint_R_Shoulder
+    400062: monnok_Joint_R_Thumb1
+    400064: monnok_Joint_R_Thumb2
+    400066: monnok_Joint_R_Toe
+    400068: monnok_Joint_R_Wrist
+    400070: monnok_Joint_Root
+    400072: monnok_Joint_Waist
+    400074: monnok_mesh
+    400076: monnok_Skeleton
+    4300000: monnok_mesh
+    7400000: Take 001
+    7400002: Walk
+    7400004: Walk2Backup
+    7400006: Idle_1
+    7400008: Walk2Idle
+    7400010: Idle_3
+    7400012: Idle2Walk
+    7400014: Idle2Walk2
+    7400016: Death
+    7400018: Damage
+    7400020: Attack
+    11100000: //RootNode
+    13700000: monnok_mesh
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: 
+      firstFrame: 1
+      lastFrame: 31
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk2Backup
+      takeName: 
+      firstFrame: 97
+      lastFrame: 152
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_1
+      takeName: 
+      firstFrame: 201
+      lastFrame: 291
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk2Idle
+      takeName: 
+      firstFrame: 301
+      lastFrame: 352
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_3
+      takeName: 
+      firstFrame: 401
+      lastFrame: 491
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle2Walk
+      takeName: 
+      firstFrame: 692
+      lastFrame: 715
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle2Walk2
+      takeName: 
+      firstFrame: 803
+      lastFrame: 948
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: 
+      firstFrame: 1005
+      lastFrame: 1031
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Damage
+      takeName: 
+      firstFrame: 1100
+      lastFrame: 1150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack
+      takeName: 
+      firstFrame: 1200
+      lastFrame: 1272
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

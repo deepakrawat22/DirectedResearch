@@ -1,0 +1,51 @@
+var cameraArm : GameObject;
+
+function OnGUI() {
+	if( GUI.RepeatButton(Rect(5,160,50,50), "Left") ){
+		cameraArm.transform.Rotate(0,-Time.deltaTime*100,0);
+	}
+	if( GUI.RepeatButton(Rect(480-5-50,160,50,50), "Right") ){
+		cameraArm.transform.Rotate(0,Time.deltaTime*100,0);
+	}
+	if ( GUI.Button(Rect(215,265,50,50), "Reset")) {
+		cameraArm.transform.rotation = Quaternion.identity;
+	}
+}	
+
+function Start() {
+	cameraArm = GameObject.Find("CameraArm");
+}
+
+function Update () {
+		if(Input.GetMouseButtonDown(0)) {
+		//print("left button is down");
+		var mousePoint : Vector3 = Input.mousePosition;
+//		print(mousePoint);
+		var cameraTransform : Transform = GameObject.Find("Main Camera").transform;
+//		print(cameraTransform.gameObject.name);
+		var rayFromCamera = Camera.main.ScreenPointToRay (Input.mousePosition);
+		//Debug.DrawLine();
+		var hit : RaycastHit;
+		if(Physics.Raycast(rayFromCamera, hit ,10000) == true ) {
+//			print("hit something");
+//			print(hit.transform.gameObject.name);
+//			print("end of hit");
+
+			var selectedObject : GameObject = hit.transform.gameObject;
+			
+			print(selectedObject.name);
+			
+//			print(selectedObject.GetComponent("CharacterControlScript"));
+//			
+//			print(selectedObject.GetComponent("PositionControlScript"));
+			
+			if( selectedObject.GetComponent("CharacterControlScript") != null) {
+				selectedObject.GetComponent("CharacterControlScript").onSelection();
+			}else if( selectedObject.GetComponent("PositionControlScript") != null ) {
+				selectedObject.GetComponent("PositionControlScript").onSelection();
+			}else{
+				print("nothing to do");
+			}
+		}
+	}
+}
